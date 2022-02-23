@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    text-align: center;
+    margin: 280px auto;
+}
+.parent{
+    margin-bottom: 20px;
+}
+.count-project{
+    margin-bottom: 10px;
+}
+.input{
+    border: none;
+    font-size: 50px;
+    text-align: center;
+}
+.btn-parent{
+
+}
+.btn{
+    padding: 15px 20px;
+    width: 150px;
+    border: none;
+    background-color: #bbb5b5;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.btn:active{
+    background-color: #ebe1e1;
+}
+.decrease{
+
+}
+.reset{
+    margin: 0 15px;
+}
+.increase{
+
+}

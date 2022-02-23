@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: #fff;
+}
+.main-box{
+    height: 100vh;
+    background-image: url(Photos/Shraddha-hd-5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.container{
+   width: 500px;
+   background-color: #00000040;
+   height: 300px;
+   padding: 30px;
+   border-radius: 10px;
+}
+.name{
+    margin-bottom: 10px;
+}
+.para{
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+.line{
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+.boxContainer{
+    text-align: end;
+}
+.btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+.btn:focus-visible{
+    outline: none;
+}
+
+.modal-box{
+    background-color: #00000080;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 50px;
+    position: absolute;
+    /* top: 27vh; */
+    /* left: 30%; */
+    visibility: hidden;
+    z-index: -10;
+}
+.lineTwo{
+    border: 1px solid rgb(255, 255, 255);
+    margin: 20px 0;
+}
+.xBtn{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+.xBtn:hover{
+    background-color: #000;
+    color: #fff;
+}
+.xBtn:focus-visible{
+    outline: none;
+}
+.name-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.close-btn{
+    border: none;
+    background-color: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.close-btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+.show{
+    visibility: visible;
+    z-index: 10;
+}
+
+@media screen and (max-width:480px) {
+    .container{
+        max-width: 400px;
+        padding: 20px;
+    }
+    .modal-box{
+        max-width: 400px;
+        padding: 20px;
+    }
+}
